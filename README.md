@@ -1,3 +1,2 @@
-# Learn Terraform with Azure
+# Terraform modules to deploy a Linux VM and underlying resources
 
-This is the companion code from the HashiCorp Learn tutorials for [getting started with Terraform on Azure](https://learn.hashicorp.com/collections/terraform/azure-get-started).
