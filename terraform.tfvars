@@ -1,3 +1,3 @@
 location       = "westus2"
-prefix         = "tf"
+prefix         = "test"
 addr_prefix    = "192.168.11.0/24"
