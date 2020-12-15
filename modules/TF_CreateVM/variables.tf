@@ -14,7 +14,7 @@ variable "admin_password" {
 }
 
 variable "NInterface_ID" {
-    type = string
+    type = list
     description = "Subnet ID"
 }
 
@@ -22,6 +22,7 @@ variable "rgname" {
     type = string
     description = "Name of resource group"
 }
+
 
 variable "prefix" {
   type    = string
@@ -37,3 +38,10 @@ variable "tags" {
   }
 }
 
+
+variable "sku" {
+  default = {
+    westus2 = "16.04-LTS"
+    eastus  = "18.04-LTS"
+  }
+}
